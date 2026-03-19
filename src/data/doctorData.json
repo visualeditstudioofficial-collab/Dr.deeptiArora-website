@@ -1,0 +1,226 @@
+{
+  "doctor": {
+    "prefix": "Dr.",
+    "name": "Deepti Arora",
+    "degree": "MBBS, MD (Cardiology), DM (Interventional Cardiology)",
+    "specialization": "Senior Interventional Cardiologist",
+    "experience": 18,
+    "experienceLabel": "Years of Excellence",
+    "registrationNumber": "MCI-2006-0045782",
+    "phone": "+91 70442 32016",
+    "email": "dr.deepti@apolloheartclinic.com",
+    "clinicName": "Apollo Heart Clinic",
+    "address": "4th Floor, Apollo Medical Tower, Bandra West, Mumbai – 400050",
+    "photo": "https://res.cloudinary.com/dqxrvtyii/image/upload/v1773837242/deepti_arora_pic_rogvly.jpg",
+    "tagline": "Healing Hearts, Transforming Lives",
+    "subtitle": "Board-certified Interventional Cardiologist with 18+ years dedicated to advanced cardiac care, preventive cardiology, and life-saving interventional procedures.",
+    "workingHours": [
+      { "day": "Monday – Friday", "time": "9:00 AM – 6:00 PM" },
+      { "day": "Saturday", "time": "10:00 AM – 3:00 PM" },
+      { "day": "Sunday", "time": "Emergency Only" }
+    ],
+    "badges": [
+      { "value": "12,000+", "label": "Patients Treated" },
+      { "value": "18+", "label": "Years Experience" },
+      { "value": "98%", "label": "Success Rate" }
+    ]
+  },
+  "about": {
+    "heading": "About Dr. Deepti Arora",
+    "paragraphs": [
+      "Dr. Deepti Arora is one of India's leading Interventional Cardiologists, renowned for her expertise in complex coronary interventions, structural heart disease management, and advanced cardiac imaging. With over 18 years of clinical experience, she has successfully performed more than 5,000 cardiac procedures.",
+      "Trained at AIIMS New Delhi and further fellowship-trained at Cleveland Clinic, USA, Dr. Arora combines world-class expertise with deep compassion for her patients. She is a pioneer in bringing minimally invasive cardiac procedures to Mumbai.",
+      "Her holistic approach to cardiac care — integrating cutting-edge technology with patient-centered treatment plans — has earned her recognition as one of India's Top 10 Cardiologists by Healthcare Excellence Awards 2023."
+    ],
+    "highlights": [
+      {
+        "icon": "🎓",
+        "title": "Education",
+        "items": ["MBBS – AIIMS, New Delhi", "MD Cardiology – PGIMER Chandigarh", "DM Interventional – Cleveland Clinic, USA"]
+      },
+      {
+        "icon": "🏆",
+        "title": "Recognition",
+        "items": ["Top 10 Cardiologist – India 2023", "Best Interventional Cardiologist – Mumbai 2022", "Excellence in Cardiac Care Award 2021"]
+      },
+      {
+        "icon": "🤝",
+        "title": "Memberships",
+        "items": ["Cardiological Society of India", "American College of Cardiology", "European Society of Cardiology"]
+      },
+      {
+        "icon": "🔬",
+        "title": "Research",
+        "items": ["25+ Published Papers", "Principal Investigator – 3 Clinical Trials", "Keynote Speaker – 40+ Conferences"]
+      }
+    ]
+  },
+  "services": {
+    "heading": "Our Specialized Services",
+    "subtitle": "Comprehensive cardiac care with state-of-the-art technology",
+    "list": [
+      {
+        "emoji": "❤️",
+        "title": "Coronary Angioplasty",
+        "description": "Minimally invasive procedure to open blocked coronary arteries and restore blood flow to the heart muscle.",
+        "tag": "Interventional"
+      },
+      {
+        "emoji": "🫀",
+        "title": "Echocardiography",
+        "description": "Advanced ultrasound imaging of the heart structure and function for accurate diagnosis.",
+        "tag": "Diagnostic"
+      },
+      {
+        "emoji": "📊",
+        "title": "Cardiac CT & MRI",
+        "description": "High-resolution imaging for detailed assessment of coronary arteries and cardiac anatomy.",
+        "tag": "Imaging"
+      },
+      {
+        "emoji": "💊",
+        "title": "Preventive Cardiology",
+        "description": "Personalized risk assessment and lifestyle modification programs to prevent heart disease.",
+        "tag": "Preventive"
+      },
+      {
+        "emoji": "⚡",
+        "title": "Pacemaker Implantation",
+        "description": "Implantation of permanent and temporary pacemakers for heart rhythm management.",
+        "tag": "Interventional"
+      },
+      {
+        "emoji": "🩺",
+        "title": "Heart Failure Management",
+        "description": "Comprehensive management of acute and chronic heart failure with advanced therapies.",
+        "tag": "Management"
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "Patient Stories",
+    "subtitle": "Real experiences from real patients",
+    "list": [
+      {
+        "name": "Ramesh Gupta",
+        "age": 58,
+        "location": "Mumbai",
+        "procedure": "Coronary Angioplasty",
+        "text": "Dr. Arora saved my life. After my heart attack, she performed the angioplasty with precision and explained every step. I am now living a full, active life thanks to her expertise and care.",
+        "rating": 5
+      },
+      {
+        "name": "Priya Sharma",
+        "age": 45,
+        "location": "Pune",
+        "procedure": "Echocardiography",
+        "text": "I was anxious about my heart checkup but Dr. Arora made the entire experience comfortable. She is thorough, compassionate, and takes time to explain everything clearly. Highly recommend!",
+        "rating": 5
+      },
+      {
+        "name": "Anil Mehta",
+        "age": 62,
+        "location": "Delhi",
+        "procedure": "Pacemaker Implantation",
+        "text": "The pacemaker procedure was smooth and recovery was quick. Dr. Arora's team is world-class. Three months later I feel like I'm 40 again. Truly transformative care.",
+        "rating": 5
+      },
+      {
+        "name": "Sunita Joshi",
+        "age": 50,
+        "location": "Thane",
+        "procedure": "Preventive Cardiology",
+        "text": "I visited for a preventive checkup and Dr. Arora caught early warning signs. Her proactive approach helped me change my lifestyle before things got serious. Forever grateful.",
+        "rating": 5
+      }
+    ]
+  },
+  "clinicMedia": {
+    "heading": "Our Clinic",
+    "subtitle": "State-of-the-art facilities for world-class care",
+    "items": [
+      {
+        "thumbnail": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&q=80",
+        "title": "Advanced Cath Lab",
+        "description": "Our bi-plane digital cath lab equipped with the latest imaging technology"
+      },
+      {
+        "thumbnail": "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=600&q=80",
+        "title": "Consultation Suite",
+        "description": "Comfortable and private consultation rooms for thorough patient evaluation"
+      },
+      {
+        "thumbnail": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=600&q=80",
+        "title": "Cardiac ICU",
+        "description": "24/7 monitored intensive care for post-procedure recovery"
+      },
+      {
+        "thumbnail": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&q=80",
+        "title": "Echo Suite",
+        "description": "Advanced echocardiography lab with 3D imaging capabilities"
+      },
+      {
+        "thumbnail": "https://images.unsplash.com/photo-1504813184591-01572f98c85f?w=600&q=80",
+        "title": "Patient Waiting Area",
+        "description": "Serene and comfortable waiting area designed for patient well-being"
+      },
+      {
+        "thumbnail": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=600&q=80",
+        "title": "Emergency Care",
+        "description": "Round-the-clock emergency cardiac care with rapid response team"
+      }
+    ]
+  },
+  "videoSection": {
+    "heading": "Patient Education Videos",
+    "subtitle": "Learn about heart health from Dr. Arora",
+    "items": [
+      {
+        "title": "Deepti Ma'am Reel 6",
+        "description": "Dr. Deepti Arora shares insights on cardiac care and patient wellness.",
+        "thumbnail": "https://res.cloudinary.com/dqxrvtyii/image/upload/v1773835957/deepti_maam_reel_6_mwrzo9.jpg",
+        "videoUrl": "https://res.cloudinary.com/dqxrvtyii/video/upload/v1773832969/Deepti_ma_am_reel_6_mpdfe6.mp4",
+        "duration": "0:45",
+        "category": "Education",
+        "views": "1.2K"
+      },
+      {
+        "title": "Deepti Ma'am Reel 5",
+        "description": "Expert advice on maintaining a healthy heart and lifestyle tips.",
+        "thumbnail": "https://res.cloudinary.com/dqxrvtyii/image/upload/v1773835950/deepti_maam_reel_5_gdigam.jpg",
+        "videoUrl": "https://res.cloudinary.com/dqxrvtyii/video/upload/v1773832655/Deepti_ma_am_reel_5_1_romv3b.mp4",
+        "duration": "0:52",
+        "category": "Lifestyle",
+        "views": "2.8K"
+      },
+      {
+        "title": "Deepti Ma'am Reel 2",
+        "description": "Understanding cardiac procedures and treatment options explained simply.",
+        "thumbnail": "https://res.cloudinary.com/dqxrvtyii/image/upload/v1773835942/deepti_maam_reel_2_oq2sdy.jpg",
+        "videoUrl": "https://res.cloudinary.com/dqxrvtyii/video/upload/v1773832734/Deepti_maam_reel_2_1_honqdh.mp4",
+        "duration": "0:38",
+        "category": "Procedure",
+        "views": "3.5K"
+      }
+    ]
+  },
+  "appointment": {
+    "heading": "Book a Consultation",
+    "subtitle": "Schedule your appointment with Dr. Deepti Arora",
+    "whatsappNumber": "917044232016",
+    "confirmationMessage": "Thank you! Your appointment request has been sent to Dr. Arora's team via WhatsApp. You will receive a confirmation within 2 hours during working hours.",
+    "clinicName": "Apollo Heart Clinic",
+    "clinicAddress": "4th Floor, Apollo Medical Tower, Bandra West, Mumbai – 400050"
+  },
+  "footer": {
+    "tagline": "Dedicated to healing hearts and transforming lives through compassionate, world-class cardiac care.",
+    "quickLinks": [
+      { "label": "About", "href": "#about" },
+      { "label": "Services", "href": "#services" },
+      { "label": "Testimonials", "href": "#testimonials" },
+      { "label": "Book Appointment", "href": "#appointment" }
+    ],
+    "emergencyNumber": "+91 98765 43210",
+    "copyright": "© 2025 Apollo Heart Clinic. All rights reserved. Dr. Deepti Arora, MD."
+  }
+}

@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  body {
+    @apply font-sans text-slate-800 bg-white antialiased;
+    overflow-x: hidden;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+}
+
+@layer components {
+  .section-heading {
+    @apply font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-800 leading-tight;
+  }
+  
+  .section-subtitle {
+    @apply text-slate-500 text-base sm:text-lg mt-3 max-w-2xl;
+  }
+  
+  .btn-primary {
+    @apply bg-teal-600 hover:bg-teal-700 text-white font-medium px-6 py-3 rounded-xl 
+           transition-all duration-200 shadow-md hover:shadow-teal-200 hover:shadow-lg
+           active:scale-95 focus:outline-none focus:ring-2 focus:ring-teal-400;
+  }
+  
+  .btn-secondary {
+    @apply border-2 border-teal-600 text-teal-700 hover:bg-teal-50 font-medium px-6 py-3 rounded-xl 
+           transition-all duration-200 active:scale-95 focus:outline-none focus:ring-2 focus:ring-teal-400;
+  }
+  
+  .card {
+    @apply bg-white rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow duration-300;
+  }
+  
+  .badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-medium;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-teal-600 to-cyan-500 bg-clip-text text-transparent;
+  }
+  
+  .bg-mesh {
+    background-color: #f0fdfa;
+    background-image: 
+      radial-gradient(at 40% 20%, rgba(20, 184, 166, 0.08) 0px, transparent 50%),
+      radial-gradient(at 80% 0%, rgba(6, 182, 212, 0.05) 0px, transparent 50%),
+      radial-gradient(at 0% 50%, rgba(14, 165, 233, 0.06) 0px, transparent 50%);
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Video aspect ratio */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container video,
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.75rem;
+}
+
+/* WhatsApp button pulse ring */
+.whatsapp-ring {
+  animation: whatsapp-pulse 2.5s ease-out infinite;
+}
+
+@keyframes whatsapp-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+  }
+  70% {
+    box-shadow: 0 0 0 20px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
+/* Smooth image load */
+img {
+  transition: opacity 0.3s ease;
+}
+
+img[loading="lazy"] {
+  opacity: 0;
+}
+
+img.loaded {
+  opacity: 1;
+}
