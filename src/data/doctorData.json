@@ -7,7 +7,7 @@
     "experience": 18,
     "experienceLabel": "Years of Excellence",
     "registrationNumber": "MCI-2006-0045782",
-    "phone": "+91 70442 32016",
+    "phone": "+91 85588 55949",
     "email": "dr.deepti@apolloheartclinic.com",
     "clinicName": "Apollo Heart Clinic",
     "address": "4th Floor, Apollo Medical Tower, Bandra West, Mumbai – 400050",
@@ -207,7 +207,7 @@
   "appointment": {
     "heading": "Book a Consultation",
     "subtitle": "Schedule your appointment with Dr. Deepti Arora",
-    "whatsappNumber": "917044232016",
+    "whatsappNumber": "918558855949",
     "confirmationMessage": "Thank you! Your appointment request has been sent to Dr. Arora's team via WhatsApp. You will receive a confirmation within 2 hours during working hours.",
     "clinicName": "Apollo Heart Clinic",
     "clinicAddress": "4th Floor, Apollo Medical Tower, Bandra West, Mumbai – 400050"
@@ -220,7 +220,7 @@
       { "label": "Testimonials", "href": "#testimonials" },
       { "label": "Book Appointment", "href": "#appointment" }
     ],
-    "emergencyNumber": "+91 98765 43210",
+    "emergencyNumber": "+91 85588 55949",
     "copyright": "© 2025 Apollo Heart Clinic. All rights reserved. Dr. Deepti Arora, MD."
   }
 }
