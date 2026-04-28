@@ -23,11 +23,11 @@ export default function App() {
       <StartingPoint />
       <HowWeHelp />
       <WhatToExpect />
+      <VideoSection videoSection={videoSection} />
       <About about={about} />
       <Services services={services} />
       <Testimonials testimonials={testimonials} />
       {/* <ClinicMedia clinicMedia={clinicMedia} /> */}
-      <VideoSection videoSection={videoSection} />
       <Appointment appointment={appointment} />
       <DoctorDetails doctor={doctor} />
       <Footer footer={footer} doctor={doctor} />

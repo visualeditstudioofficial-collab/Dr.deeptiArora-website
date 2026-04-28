@@ -23,7 +23,7 @@ function VideoCard({ item, index }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ delay: index * 0.1, duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
-      className="card overflow-hidden"
+      className="card overflow-hidden w-56 sm:w-64"
     >
       {/* Video / Thumbnail */}
       <div className="relative w-full" style={{ paddingBottom: '150%' }}>
@@ -104,7 +104,7 @@ export default function VideoSection({ videoSection }) {
           <p className="section-subtitle mx-auto text-center">{videoSection.subtitle}</p>
         </motion.div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 max-w-md sm:max-w-2xl md:max-w-4xl lg:max-w-6xl mx-auto">
+        <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
           {videoSection.items.map((item, i) => (
             <VideoCard key={i} item={item} index={i} />
           ))}
