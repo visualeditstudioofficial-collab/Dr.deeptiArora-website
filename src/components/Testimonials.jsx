@@ -65,7 +65,11 @@ export default function Testimonials({ testimonials }) {
                 </div>
                 <div className="min-w-0">
                   <p className="font-semibold text-slate-800 text-sm leading-tight truncate">{t.name}</p>
-                  <p className="text-xs text-slate-400">{t.age} yrs · {t.location}</p>
+                  {(t.age || t.location) && (
+                    <p className="text-xs text-slate-400">
+                      {[t.age ? `${t.age} yrs` : null, t.location].filter(Boolean).join(' · ')}
+                    </p>
+                  )}
                 </div>
               </div>
               <StarRating rating={t.rating} />
@@ -91,10 +95,14 @@ export default function Testimonials({ testimonials }) {
                   <div className={`w-12 h-12 rounded-full flex items-center justify-center font-bold shrink-0 ${avatarColors[current % avatarColors.length]}`}>
                     {getInitials(list[current].name)}
                   </div>
-                  <div>
-                    <p className="font-semibold text-slate-800">{list[current].name}</p>
-                    <p className="text-xs text-slate-400">{list[current].age} yrs · {list[current].location}</p>
-                  </div>
+                <div>
+                  <p className="font-semibold text-slate-800">{list[current].name}</p>
+                  {(list[current].age || list[current].location) && (
+                    <p className="text-xs text-slate-400">
+                      {[list[current].age ? `${list[current].age} yrs` : null, list[current].location].filter(Boolean).join(' · ')}
+                    </p>
+                  )}
+                </div>
                 </div>
                 <StarRating rating={list[current].rating} />
                 <span className="badge bg-teal-50 text-teal-700 text-xs mt-3 inline-block">{list[current].procedure}</span>

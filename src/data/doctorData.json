@@ -103,11 +103,31 @@
     "subtitle": "Real experiences from real patients",
     "list": [
       {
-        "name": "Ramesh Gupta",
-        "age": 58,
-        "location": "Mumbai",
-        "procedure": "Coronary Angioplasty",
-        "text": "Dr. Arora saved my life. After my heart attack, she performed the angioplasty with precision and explained every step. I am now living a full, active life thanks to her expertise and care.",
+        "name": "S*** V***a",
+        "location": "Chandigarh",
+        "procedure": "Diabetes Treatment",
+        "text": "I have seen significant improvements in my sugar levels and overall health. The doctors and staff are knowledgeable, empathetic, and professional. Highly recommend Healthwise Chandigarh for effective and personalised sugar treatment!",
+        "rating": 5
+      },
+      {
+        "name": "M** E** H***e",
+        "location": "Chandigarh",
+        "procedure": "Diabetes Treatment",
+        "text": "I highly recommend Dr. Deepti's diabetes clinic, which is well-equipped with in-house testing devices. Dr. Deepti is not only excellent in her treatment approach but also offers practical dietary advice. It's the best diabetes management program I've experienced.",
+        "rating": 5
+      },
+      {
+        "name": "A** M*",
+        "location": "Chandigarh",
+        "procedure": "Weight Management",
+        "text": "I had tried multiple diets before, but nothing lasted. This approach felt practical, and I finally started losing weight steadily. The plan was simple to follow, and the results felt sustainable.",
+        "rating": 5
+      },
+      {
+        "name": "D** S***",
+        "location": "Chandigarh",
+        "procedure": "Weight Management",
+        "text": "I had almost given up on losing weight. But this didn't feel like another diet. It was a simple approach I could stick to—and the weight started coming down gradually.",
         "rating": 5
       },
       {
