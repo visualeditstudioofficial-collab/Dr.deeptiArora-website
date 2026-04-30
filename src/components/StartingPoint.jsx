@@ -45,8 +45,8 @@ export default function StartingPoint() {
 
               <ul className="mt-6 space-y-4">
                 {struggles.map((text, i) => (
-                  <li key={i} className="flex items-start gap-3 text-slate-700">
-                    <Dot className="text-teal-600 mt-1" size={20} />
+                  <li key={i} className="flex items-start gap-3 text-slate-700 text-sm sm:text-base">
+                    <Dot className="text-teal-600 mt-1 shrink-0" size={20} />
                     <span>{text}</span>
                   </li>
                 ))}
@@ -69,7 +69,7 @@ export default function StartingPoint() {
 
               <ul className="mt-6 space-y-4">
                 {approachPoints.map((text, i) => (
-                  <li key={i} className="flex items-start gap-3 text-slate-700">
+                  <li key={i} className="flex items-start gap-3 text-slate-700 text-sm sm:text-base">
                     <CheckCircle2 className="text-teal-600 mt-1 shrink-0" size={20} />
                     <span>{text}</span>
                   </li>
