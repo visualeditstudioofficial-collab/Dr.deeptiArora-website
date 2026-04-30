@@ -56,10 +56,12 @@ export default function Hero({ doctor }) {
             transition={{ duration: 0.5 }}
             className="flex items-center gap-2"
           >
-            <span className="text-2xl">🫀</span>
-            <span className="font-display font-bold text-teal-800 text-lg leading-none">
-              Apollo<br /><span className="text-xs font-sans font-normal tracking-widest text-teal-600 uppercase">Heart Clinic</span>
-            </span>
+            <img
+              src="/assets/clinic.png"
+              alt="Clinic logo"
+              className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl object-contain ring-1 ring-white/70 shadow-sm"
+              loading="eager"
+            />
           </motion.div>
           <motion.div
             initial={{ opacity: 0 }}
@@ -126,62 +128,26 @@ export default function Hero({ doctor }) {
                 transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
                 className="absolute -bottom-4 -left-4 bg-white rounded-2xl shadow-lg px-4 py-3 border border-teal-100"
               >
-                <p className="text-xs text-slate-400 font-medium">Reg. No.</p>
-                <p className="text-sm font-mono font-bold text-teal-700">{doctor.registrationNumber}</p>
+                <p className="text-sm font-bold text-teal-700 whitespace-pre-line">{doctor.doctorSpecialization}</p>
               </motion.div>
             </div>
           </motion.div>
 
           {/* Text content */}
           <div className="flex-1 text-center lg:text-left">
-            <motion.div custom={0} variants={fadeUp} initial="hidden" animate="visible">
-              <span className="badge bg-teal-100 text-teal-700 text-xs tracking-wide uppercase mb-4 inline-block">
-                ✦ {doctor.specialization}
-              </span>
-            </motion.div>
-
-            <motion.h1
-              custom={1}
-              variants={fadeUp}
-              initial="hidden"
-              animate="visible"
-              className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight"
-            >
-              {doctor.prefix}{' '}
-              <span className="text-gradient">{doctor.name}</span>
-            </motion.h1>
-
-            <motion.p
-              custom={2}
-              variants={fadeUp}
-              initial="hidden"
-              animate="visible"
-              className="mt-4 text-xl sm:text-2xl font-display font-medium text-teal-700 italic"
-            >
-              "{doctor.tagline}"
-            </motion.p>
-
-            <motion.p
-              custom={3}
-              variants={fadeUp}
-              initial="hidden"
-              animate="visible"
-              className="mt-4 text-slate-500 text-base sm:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0"
-            >
-              {doctor.subtitle}
-            </motion.p>
-
             {/* Program copy */}
             <motion.div
-              custom={4}
+              custom={0}
               variants={fadeUp}
               initial="hidden"
               animate="visible"
-              className="mt-8 max-w-xl mx-auto lg:mx-0"
+              className="max-w-xl mx-auto lg:mx-0"
             >
-              <h2 className="font-display text-2xl sm:text-3xl font-bold text-slate-900 leading-tight">
-                Struggling with Diabetes or Weight Despite Trying Everything?
-              </h2>
+              <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight">
+                <span className="bg-gradient-to-r from-emerald-500 via-teal-500 to-green-500 bg-clip-text text-transparent drop-shadow-sm">
+                  Struggling with Diabetes or Weight Despite Trying Everything?
+                </span>
+              </h1>
               <p className="mt-3 text-slate-600 text-base sm:text-lg leading-relaxed">
                 A structured, doctor-led approach to help you improve sugar levels, lose weight, and regain control of your health.
               </p>

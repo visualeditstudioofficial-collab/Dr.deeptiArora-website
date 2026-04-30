@@ -9,6 +9,7 @@ import Services from './components/Services'
 import Testimonials from './components/Testimonials'
 import ClinicMedia from './components/ClinicMedia'
 import VideoSection from './components/VideoSection'
+import StructuredSupport from './components/StructuredSupport'
 import Appointment from './components/Appointment'
 import DoctorDetails from './components/DoctorDetails'
 import Footer from './components/Footer'
@@ -24,8 +25,9 @@ export default function App() {
       <HowWeHelp />
       <WhatToExpect />
       <VideoSection videoSection={videoSection} />
-      <About about={about} />
-      <Services services={services} />
+      <StructuredSupport />
+      {/* <About about={about} /> */}
+      {/* <Services services={services} /> */}
       <Testimonials testimonials={testimonials} />
       {/* <ClinicMedia clinicMedia={clinicMedia} /> */}
       <Appointment appointment={appointment} />

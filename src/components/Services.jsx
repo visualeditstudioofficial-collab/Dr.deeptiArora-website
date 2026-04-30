@@ -7,6 +7,11 @@ const tagColors = {
   'Imaging': 'bg-purple-50 text-purple-600',
   'Preventive': 'bg-green-50 text-green-600',
   'Management': 'bg-orange-50 text-orange-600',
+  'Obesity': 'bg-cyan-50 text-cyan-700',
+  'Prediabetes': 'bg-amber-50 text-amber-700',
+  'MASD': 'bg-violet-50 text-violet-700',
+  'PCOD': 'bg-fuchsia-50 text-fuchsia-700',
+  'Our Program': 'bg-emerald-50 text-emerald-700',
 }
 
 export default function Services({ services }) {

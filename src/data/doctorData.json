@@ -2,22 +2,23 @@
   "doctor": {
     "prefix": "Dr.",
     "name": "Deepti Arora",
-    "degree": "MBBS, MD (Cardiology), DM (Interventional Cardiology)",
-    "specialization": "Senior Interventional Cardiologist",
-    "experience": 18,
+    "degree": "MBBS, PGD- Geriatric Medicine, Fellowship in Diabetes Mellitus, Scope-certified Obesity Specialist",
+    "specialization": "Diabetes & Obesity Specialist",
+    "experience": 8,
     "experienceLabel": "Years of Excellence",
-    "registrationNumber": "MCI-2006-0045782",
-    "phone": "+91 85588 55949",
-    "email": "dr.deepti@apolloheartclinic.com",
-    "clinicName": "Apollo Heart Clinic",
-    "address": "4th Floor, Apollo Medical Tower, Bandra West, Mumbai – 400050",
+    "doctorSpecialization": "Dr. Deepti Arora\nSr. Physician & Diabetologist\nScope certified Obesity Specialist",
+    "regNo": "35895(PMC)",
+    "phone": "+91 9115669900",
+    "email": "healthwiseclinic21@gmail.com",
+    "clinicName": "Healthwise Clinic",
+    "address": "SCO 8, Sector 21C, Chandigarh - 160022",
     "photo": "https://res.cloudinary.com/dmxvk87l3/image/upload/f_auto,q_auto/Deepti_-_pic_2_jzofgy",
     "tagline": "Healing Hearts, Transforming Lives",
     "subtitle": "Board-certified Interventional Cardiologist with 18+ years dedicated to advanced cardiac care, preventive cardiology, and life-saving interventional procedures.",
     "workingHours": [
-      { "day": "Monday – Friday", "time": "9:00 AM – 6:00 PM" },
-      { "day": "Saturday", "time": "10:00 AM – 3:00 PM" },
-      { "day": "Sunday", "time": "Emergency Only" }
+      { "day": "Monday – Friday", "time": "10:00 AM – 7:00 PM" },
+      { "day": "Saturday", "time": "10:00 AM – 6:00 PM" },
+      { "day": "Sunday", "time": "Closed" }
     ],
     "badges": [
       { "value": "4000+", "label": "Patients Treated" },
@@ -207,10 +208,10 @@
   "appointment": {
     "heading": "Book a Consultation",
     "subtitle": "Schedule your appointment with Dr. Deepti Arora",
-    "whatsappNumber": "918558855949",
+    "whatsappNumber": "919115669900",
     "confirmationMessage": "Thank you! Your appointment request has been sent to Dr. Arora's team via WhatsApp. You will receive a confirmation within 2 hours during working hours.",
-    "clinicName": "Apollo Heart Clinic",
-    "clinicAddress": "4th Floor, Apollo Medical Tower, Bandra West, Mumbai – 400050"
+    "clinicName": "Healthwise Clinic",
+    "clinicAddress": "SCO 8, Sector 21C, Chandigarh - 160022"
   },
   "footer": {
     "tagline": "Dedicated to healing hearts and transforming lives through compassionate, world-class cardiac care.",
@@ -220,7 +221,7 @@
       { "label": "Testimonials", "href": "#testimonials" },
       { "label": "Book Appointment", "href": "#appointment" }
     ],
-    "emergencyNumber": "+91 85588 55949",
-    "copyright": "© 2025 Apollo Heart Clinic. All rights reserved. Dr. Deepti Arora, MD."
+    "emergencyNumber": "+91 9115669900",
+    "copyright": "© 2025 Healthwise Clinic. All rights reserved. Dr. Deepti Arora, MBBS."
   }
 }

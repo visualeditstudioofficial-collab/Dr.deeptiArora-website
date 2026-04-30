@@ -62,7 +62,7 @@ export default function DoctorDetails({ doctor }) {
             <DetailRow icon={User} label="Full Name" value={`${doctor.prefix} ${doctor.name}`} />
             <DetailRow icon={GraduationCap} label="Qualification" value={doctor.degree} />
             <DetailRow icon={Building2} label="Specialization" value={doctor.specialization} />
-            <DetailRow icon={CreditCard} label="Registration No." value={doctor.registrationNumber} />
+            <DetailRow icon={CreditCard} label="Registration No." value={doctor.regNo} />
             <div className="flex items-start gap-4 py-3">
               <div className="w-9 h-9 rounded-xl bg-teal-50 flex items-center justify-center shrink-0 mt-0.5">
                 <span className="text-base">🏆</span>

@@ -10,14 +10,16 @@ export default function Footer({ footer, doctor }) {
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <span className="text-2xl">🫀</span>
-              <span className="font-display font-bold text-lg leading-none">
-                Apollo<br /><span className="text-xs font-sans font-normal tracking-widest text-teal-400 uppercase">Heart Clinic</span>
-              </span>
+              <img
+                src="/assets/clinic.png"
+                alt="Clinic logo"
+                className="w-14 h-14 rounded-2xl object-contain ring-1 ring-white/10 shadow-sm"
+                loading="lazy"
+              />
             </div>
             <p className="text-slate-400 text-sm leading-relaxed mb-5">{footer.tagline}</p>
             <p className="text-xs font-mono text-slate-500 bg-slate-800 px-3 py-2 rounded-lg inline-block">
-              MCI Reg: {doctor.registrationNumber}
+              Reg No: {doctor.regNo}
             </p>
           </div>
 
