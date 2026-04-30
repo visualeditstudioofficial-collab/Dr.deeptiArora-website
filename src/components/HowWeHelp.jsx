@@ -67,7 +67,7 @@ export default function HowWeHelp({ whatsappNumber }) {
     whatsappNumber ? `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}` : null
 
   return (
-    <section id="approach" className="py-16 sm:py-24 bg-white">
+    <section id="services" className="py-16 sm:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -77,7 +77,7 @@ export default function HowWeHelp({ whatsappNumber }) {
           className="text-center mb-12"
         >
           <span className="badge bg-teal-100 text-teal-700 text-xs uppercase tracking-wider mb-3 inline-block">
-            ✦ Our Approach
+            ✦ Our Services
           </span>
           <h2 className="section-heading">How We Help</h2>
           <p className="section-subtitle mx-auto text-center">

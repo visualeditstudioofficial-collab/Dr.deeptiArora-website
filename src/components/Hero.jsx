@@ -126,7 +126,7 @@ export default function Hero({ doctor }) {
                 📅 Book Consultation
               </button>
               <button
-                onClick={() => scrollTo('approach')}
+                onClick={() => scrollTo('services')}
                 className="btn-secondary w-full sm:w-auto text-center text-base px-8 py-4"
               >
                 Our Services →
