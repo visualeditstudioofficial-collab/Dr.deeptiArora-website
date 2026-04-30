@@ -23,7 +23,11 @@ const steps = [
   }
 ]
 
-export default function WhatToExpect() {
+export default function WhatToExpect({ whatsappNumber }) {
+  const waUrl = whatsappNumber
+    ? `https://wa.me/${whatsappNumber}?text=${encodeURIComponent("Hi, I'd like to start a consultation.")}`
+    : null
+
   return (
     <section className="py-16 sm:py-24 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-8">
@@ -89,6 +93,16 @@ export default function WhatToExpect() {
             <p className="text-slate-800 text-lg font-semibold leading-relaxed">
               By the end of this consultation, you'll have <span className="text-teal-600">clarity—not confusion</span>.
             </p>
+            {waUrl && (
+              <a
+                href={waUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary inline-flex items-center justify-center mt-6 px-8 py-4 text-base"
+              >
+                Start with a Consultation -&gt;
+              </a>
+            )}
           </div>
         </motion.div>
       </div>

@@ -36,12 +36,29 @@ const InputField = ({ name, label, icon: Icon, type = 'text', placeholder, requi
   </div>
 )
 
-export default function Appointment({ appointment }) {
+export default function Appointment({ appointment, doctor }) {
   const [form, setForm] = useState({ name: '', phone: '', date: '', time: '', message: '' })
   const [errors, setErrors] = useState({})
   const [submitted, setSubmitted] = useState(false)
 
   const today = new Date().toISOString().split('T')[0]
+  const workingHoursText = doctor?.workingHours?.length
+    ? doctor.workingHours.map((wh) => `${wh.day}: ${wh.time}`).join('\n')
+    : null
+
+  const infoItems = [
+    { icon: '👩‍⚕️', label: 'Doctor', value: `${doctor?.prefix || 'Dr.'} ${doctor?.name || ''}`.trim() },
+    { icon: '🎓', label: 'Qualification', value: doctor?.degree },
+    { icon: '🩺', label: 'Specialization', value: doctor?.specialization },
+    { icon: '🪪', label: 'Registration No', value: doctor?.regNo },
+    { icon: '🏆', label: 'Experience', value: doctor ? `${doctor.experience}+ ${doctor.experienceLabel}` : null },
+    { icon: '📞', label: 'Phone', value: doctor?.phone },
+    { icon: '✉️', label: 'Email', value: doctor?.email },
+    { icon: '🏥', label: 'Clinic', value: doctor?.clinicName || appointment?.clinicName },
+    { icon: '📍', label: 'Address', value: doctor?.address || appointment?.clinicAddress },
+    { icon: '⏰', label: 'Working Hours', value: workingHoursText },
+    { icon: '💬', label: 'Response Time', value: 'Within 2 hours during working hours' },
+  ].filter((item) => item.value)
 
   const validate = () => {
     const e = {}
@@ -100,17 +117,12 @@ export default function Appointment({ appointment }) {
 
             {/* Info blocks */}
             <div className="space-y-4">
-              {[
-                { icon: '📍', label: 'Location', value: appointment.clinicAddress },
-                { icon: '📞', label: 'Phone', value: '+91 70442 32016' },
-                { icon: '⏰', label: 'Working Hours', value: 'Mon–Fri: 9AM–6PM | Sat: 10AM–3PM' },
-                { icon: '💬', label: 'Response Time', value: 'Within 2 hours during working hours' },
-              ].map((item, i) => (
+              {infoItems.map((item, i) => (
                 <div key={i} className="flex items-start gap-3">
                   <span className="text-xl mt-0.5">{item.icon}</span>
                   <div>
                     <p className="text-xs text-teal-300 font-medium uppercase tracking-wide">{item.label}</p>
-                    <p className="text-white/90 text-sm mt-0.5">{item.value}</p>
+                    <p className="text-white/90 text-sm mt-0.5 whitespace-pre-line">{item.value}</p>
                   </div>
                 </div>
               ))}

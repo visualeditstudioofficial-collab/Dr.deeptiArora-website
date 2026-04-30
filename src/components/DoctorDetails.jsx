@@ -18,7 +18,7 @@ function DetailRow({ icon: Icon, label, value, href }) {
       </div>
       <div className="min-w-0">
         <p className="text-xs font-medium text-slate-400 uppercase tracking-wide">{label}</p>
-        <p className="text-slate-700 font-medium mt-0.5 text-sm sm:text-base break-words">{value}</p>
+        <p className="text-slate-700 font-medium mt-0.5 text-sm sm:text-base break-words whitespace-pre-line">{value}</p>
       </div>
     </div>
   )
@@ -110,7 +110,7 @@ export default function DoctorDetails({ doctor }) {
               ))}
             </div>
             <div className="mt-6 p-4 rounded-xl bg-gradient-to-br from-teal-50 to-cyan-50 border border-teal-100">
-              <p className="text-xs text-teal-700 font-medium">
+              <p className="text-xs text-teal-700 font-medium whitespace-pre-line">
                 📍 {doctor.address}
               </p>
             </div>

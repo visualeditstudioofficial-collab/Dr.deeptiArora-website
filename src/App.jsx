@@ -24,15 +24,15 @@ export default function App() {
       <Navbar doctor={doctor} />
       <Hero doctor={doctor} />
       <StartingPoint />
-      <HowWeHelp />
-      <WhatToExpect />
+      <HowWeHelp whatsappNumber={appointment.whatsappNumber} />
+      <WhatToExpect whatsappNumber={appointment.whatsappNumber} />
       <VideoSection videoSection={videoSection} />
       <StructuredSupport />
       {/* <About about={about} /> */}
       {/* <Services services={services} /> */}
       <Testimonials testimonials={testimonials} />
       {/* <ClinicMedia clinicMedia={clinicMedia} /> */}
-      <Appointment appointment={appointment} />
+      <Appointment appointment={appointment} doctor={doctor} />
       <DoctorDetails doctor={doctor} />
       <Footer footer={footer} doctor={doctor} />
       <FloatingWhatsApp whatsappNumber={appointment.whatsappNumber} />

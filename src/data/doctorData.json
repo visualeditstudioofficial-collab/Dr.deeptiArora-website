@@ -11,13 +11,13 @@
     "phone": "+91 9115669900",
     "email": "healthwiseclinic21@gmail.com",
     "clinicName": "Healthwise Clinic",
-    "address": "SCO 8, Sector 21C, Chandigarh - 160022",
+    "address": "SCO 8, Sector 21C\nChandigarh\n160022",
     "photo": "https://res.cloudinary.com/dmxvk87l3/image/upload/f_auto,q_auto/Deepti_-_pic_2_jzofgy",
     "tagline": "Healing Hearts, Transforming Lives",
     "subtitle": "Board-certified Interventional Cardiologist with 18+ years dedicated to advanced cardiac care, preventive cardiology, and life-saving interventional procedures.",
     "workingHours": [
-      { "day": "Monday – Friday", "time": "10:00 AM – 7:00 PM" },
-      { "day": "Saturday", "time": "10:00 AM – 6:00 PM" },
+      { "day": "Monday - Friday", "time": "10:00 AM to 7:00 PM" },
+      { "day": "Saturday", "time": "10:00 AM to 6:00 PM" },
       { "day": "Sunday", "time": "Closed" }
     ],
     "badges": [
@@ -129,30 +129,6 @@
         "procedure": "Weight Management",
         "text": "I had almost given up on losing weight. But this didn't feel like another diet. It was a simple approach I could stick to—and the weight started coming down gradually.",
         "rating": 5
-      },
-      {
-        "name": "Priya Sharma",
-        "age": 45,
-        "location": "Pune",
-        "procedure": "Echocardiography",
-        "text": "I was anxious about my heart checkup but Dr. Arora made the entire experience comfortable. She is thorough, compassionate, and takes time to explain everything clearly. Highly recommend!",
-        "rating": 5
-      },
-      {
-        "name": "Anil Mehta",
-        "age": 62,
-        "location": "Delhi",
-        "procedure": "Pacemaker Implantation",
-        "text": "The pacemaker procedure was smooth and recovery was quick. Dr. Arora's team is world-class. Three months later I feel like I'm 40 again. Truly transformative care.",
-        "rating": 5
-      },
-      {
-        "name": "Sunita Joshi",
-        "age": 50,
-        "location": "Thane",
-        "procedure": "Preventive Cardiology",
-        "text": "I visited for a preventive checkup and Dr. Arora caught early warning signs. Her proactive approach helped me change my lifestyle before things got serious. Forever grateful.",
-        "rating": 5
       }
     ]
   },
@@ -231,10 +207,10 @@
     "whatsappNumber": "919115669900",
     "confirmationMessage": "Thank you! Your appointment request has been sent to Dr. Arora's team via WhatsApp. You will receive a confirmation within 2 hours during working hours.",
     "clinicName": "Healthwise Clinic",
-    "clinicAddress": "SCO 8, Sector 21C, Chandigarh - 160022"
+    "clinicAddress": "SCO 8, Sector 21C\nChandigarh\n160022"
   },
   "footer": {
-    "tagline": "Dedicated to healing hearts and transforming lives through compassionate, world-class cardiac care.",
+    "tagline": "Dedicated to helping people improve sugar control, lose weight, and take charge of their health with clarity and confidence.",
     "quickLinks": [
       { "label": "About", "href": "#about" },
       { "label": "Services", "href": "#services" },

@@ -6,7 +6,7 @@ const tagStyles = {
   'Type 2 Diabetes': 'bg-gradient-to-r from-rose-500 to-pink-500 text-white shadow-md',
   'Obesity': 'bg-gradient-to-r from-blue-500 to-cyan-500 text-white shadow-md',
   'Prediabetes': 'bg-gradient-to-r from-amber-500 to-orange-500 text-white shadow-md',
-  'MASD': 'bg-gradient-to-r from-violet-500 to-purple-600 text-white shadow-md',
+  'MASLD': 'bg-gradient-to-r from-violet-500 to-purple-600 text-white shadow-md',
   'PCOD': 'bg-gradient-to-r from-pink-500 to-fuchsia-600 text-white shadow-md',
   'Our Program': 'bg-gradient-to-r from-teal-500 to-emerald-500 text-white shadow-md',
 }
@@ -42,7 +42,7 @@ const cards = [
     description: 'Target the root metabolic causes to improve liver health, weight, and overall well-being.',
     color: 'bg-purple-50 border-purple-200 text-purple-600',
     bgColor: 'bg-purple-50',
-    tag: 'MASD'
+    tag: 'MASLD'
   },
   {
     icon: Heart,
@@ -62,7 +62,10 @@ const cards = [
   }
 ]
 
-export default function HowWeHelp() {
+export default function HowWeHelp({ whatsappNumber }) {
+  const buildWaUrl = (text) =>
+    whatsappNumber ? `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}` : null
+
   return (
     <section className="py-16 sm:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-8">
@@ -85,6 +88,7 @@ export default function HowWeHelp() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {cards.map((card, index) => {
             const IconComponent = card.icon
+            const waUrl = buildWaUrl(`Hi, I'd like to start my journey for ${card.tag || card.title}.`)
             return (
               <motion.div
                 key={index}
@@ -108,6 +112,16 @@ export default function HowWeHelp() {
                 </div>
                 <h3 className="font-display font-bold text-slate-800 text-xl mb-3">{card.title}</h3>
                 <p className="text-slate-600 text-sm leading-relaxed">{card.description}</p>
+                {waUrl && (
+                  <a
+                    href={waUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-5 btn-secondary inline-flex items-center justify-center text-sm px-5 py-2.5"
+                  >
+                    Start your journey -&gt;
+                  </a>
+                )}
               </motion.div>
             )
           })}

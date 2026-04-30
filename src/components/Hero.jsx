@@ -81,7 +81,7 @@ export default function Hero({ doctor }) {
                 A structured, doctor-led approach to help you improve sugar levels, lose weight, and regain control of your health.
               </p>
               <p className="mt-4 text-slate-500 text-sm sm:text-base leading-relaxed">
-                10+ years of helping patients improve sugar control, lose weight, and reduce long-term medication dependence.
+                8+ years of helping patients improve sugar control, lose weight, and reduce long-term medication dependence.
               </p>
             </motion.div>
 

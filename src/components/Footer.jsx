@@ -61,7 +61,7 @@ export default function Footer({ footer, doctor }) {
                   {doctor.email}
                 </a>
               </li>
-              <li className="flex items-start gap-3 text-slate-400 text-sm">
+              <li className="flex items-start gap-3 text-slate-400 text-sm whitespace-pre-line">
                 <MapPin size={14} className="shrink-0 mt-0.5 text-teal-500" />
                 {doctor.address}
               </li>
