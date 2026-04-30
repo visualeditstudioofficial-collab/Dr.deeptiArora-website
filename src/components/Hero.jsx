@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { motion } from 'framer-motion'
-import { ChevronDown, Star, Shield, Award, Phone, Mail, MapPin } from 'lucide-react'
+import { ChevronDown, Star, Shield, Award } from 'lucide-react'
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -26,77 +26,7 @@ export default function Hero({ doctor }) {
       <div className="absolute top-0 right-0 w-96 h-96 bg-teal-400/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 pointer-events-none" />
       <div className="absolute bottom-0 left-0 w-80 h-80 bg-cyan-400/10 rounded-full blur-3xl translate-y-1/3 -translate-x-1/4 pointer-events-none" />
 
-      {/* Contact strip (above navbar) */}
-      <div className="absolute top-0 left-0 right-0 z-30 px-4 sm:px-8 py-2 bg-white/70 backdrop-blur border-b border-white/60">
-        <div className="max-w-7xl mx-auto flex items-center justify-center md:justify-end gap-5 text-xs sm:text-sm text-slate-600">
-          <a href={`tel:${doctor.phone}`} className="inline-flex items-center gap-2 hover:text-teal-700 transition-colors">
-            <Phone size={14} className="text-teal-600" />
-            <span className="font-medium">{doctor.phone}</span>
-          </a>
-          <a
-            href={`mailto:${doctor.email}`}
-            className="hidden sm:inline-flex items-center gap-2 hover:text-teal-700 transition-colors"
-          >
-            <Mail size={14} className="text-teal-600" />
-            <span className="font-medium">{doctor.email}</span>
-          </a>
-          <div className="hidden lg:inline-flex items-center gap-2">
-            <MapPin size={14} className="text-teal-600" />
-            <span className="font-medium truncate max-w-[34ch]">{doctor.address}</span>
-          </div>
-        </div>
-      </div>
-
-      {/* Nav bar */}
-      <header className="absolute top-0 left-0 right-0 z-20 px-4 sm:px-8 py-5 mt-10">
-        <nav className="max-w-7xl mx-auto flex items-center justify-between">
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5 }}
-            className="flex items-center gap-2"
-          >
-            <img
-              src="/assets/clinic.png"
-              alt="Clinic logo"
-              className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl object-contain ring-1 ring-white/70 shadow-sm"
-              loading="eager"
-            />
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.3 }}
-            className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600"
-          >
-            {['About', 'Services', 'Testimonials', 'Contact'].map(item => (
-              <button
-                key={item}
-                onClick={() => scrollTo(item.toLowerCase())}
-                className="hover:text-teal-600 transition-colors"
-              >
-                {item}
-              </button>
-            ))}
-            <button
-              onClick={() => scrollTo('appointment')}
-              className="btn-primary text-sm px-5 py-2"
-            >
-              Book Now
-            </button>
-          </motion.div>
-          <motion.button
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            onClick={() => scrollTo('appointment')}
-            className="md:hidden btn-primary text-sm px-4 py-2"
-          >
-            Book Now
-          </motion.button>
-        </nav>
-      </header>
-
-      <div className="w-full max-w-7xl mx-auto px-4 sm:px-8 pt-32 pb-16">
+      <div className="w-full max-w-7xl mx-auto px-4 sm:px-8 pt-32 sm:pt-36 pb-16">
         <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
           
           {/* Doctor image – stacked above on mobile */}
@@ -144,9 +74,8 @@ export default function Hero({ doctor }) {
               className="max-w-xl mx-auto lg:mx-0"
             >
               <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight">
-                <span className="bg-gradient-to-r from-emerald-500 via-teal-500 to-green-500 bg-clip-text text-transparent drop-shadow-sm">
-                  Struggling with Diabetes or Weight Despite Trying Everything?
-                </span>
+                <span className="text-black">Struggling</span>{' '}
+                <span className="text-[#115e59]">with Diabetes or Weight Despite Trying Everything?</span>
               </h1>
               <p className="mt-3 text-slate-600 text-base sm:text-lg leading-relaxed">
                 A structured, doctor-led approach to help you improve sugar levels, lose weight, and regain control of your health.

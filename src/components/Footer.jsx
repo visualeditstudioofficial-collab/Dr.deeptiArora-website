@@ -13,7 +13,7 @@ export default function Footer({ footer, doctor }) {
               <img
                 src="/assets/clinic.png"
                 alt="Clinic logo"
-                className="w-14 h-14 rounded-2xl object-contain ring-1 ring-white/10 shadow-sm"
+                className="w-16 h-16 rounded-2xl object-contain shadow-sm"
                 loading="lazy"
               />
             </div>

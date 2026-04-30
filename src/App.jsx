@@ -1,5 +1,6 @@
 import React from 'react'
 import doctorData from './data/doctorData.json'
+import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import StartingPoint from './components/StartingPoint'
 import HowWeHelp from './components/HowWeHelp'
@@ -20,6 +21,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-white overflow-x-hidden">
+      <Navbar doctor={doctor} />
       <Hero doctor={doctor} />
       <StartingPoint />
       <HowWeHelp />
