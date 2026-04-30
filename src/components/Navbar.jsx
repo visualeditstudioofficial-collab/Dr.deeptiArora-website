@@ -56,7 +56,7 @@ export default function Navbar({ doctor }) {
             transition={{ delay: 0.3 }}
             className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600"
           >
-            {['About', 'Services', 'Testimonials', 'Contact'].map((item) => (
+            {['About', 'Approach', 'Process', 'Program', 'Videos', 'Testimonials'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollTo(item.toLowerCase())}

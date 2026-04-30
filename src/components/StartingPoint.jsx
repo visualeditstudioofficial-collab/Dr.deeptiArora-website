@@ -70,7 +70,7 @@ export default function StartingPoint() {
               <ul className="mt-6 space-y-4">
                 {approachPoints.map((text, i) => (
                   <li key={i} className="flex items-start gap-3 text-slate-700">
-                    <CheckCircle2 className="text-teal-600 mt-1" size={20} />
+                    <CheckCircle2 className="text-teal-600 mt-1 shrink-0" size={20} />
                     <span>{text}</span>
                   </li>
                 ))}

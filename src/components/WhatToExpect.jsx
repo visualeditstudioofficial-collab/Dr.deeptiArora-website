@@ -13,13 +13,13 @@ const steps = [
     icon: Search,
     number: '2',
     title: 'We identify what\'s not working',
-    description: 'Simple clarity on why things are stuck or fluctuating.'
+    description: 'We look at the patterns causing the sugar fluctuations or why your weight may be stuck.'
   },
   {
     icon: ClipboardCheck,
     number: '3',
     title: 'You leave with a clear plan',
-    description: 'Practical next steps you can actually follow.'
+    description: 'Clear, practical steps tailored to you—what to change, what to focus on and the way forward.'
   }
 ]
 
@@ -29,7 +29,7 @@ export default function WhatToExpect({ whatsappNumber }) {
     : null
 
   return (
-    <section className="py-16 sm:py-24 bg-slate-50">
+    <section id="process" className="py-16 sm:py-24 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -57,9 +57,9 @@ export default function WhatToExpect({ whatsappNumber }) {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.15, duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
-                className="relative"
+                className="relative h-full"
               >
-                <div className="card p-8 text-center relative">
+                <div className="card p-8 text-center relative h-full flex flex-col items-center justify-start">
                   <div className="absolute -top-4 -left-4 w-10 h-10 bg-teal-600 text-white rounded-full flex items-center justify-center font-bold text-lg shadow-lg">
                     {step.number}
                   </div>

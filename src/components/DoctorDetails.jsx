@@ -31,7 +31,7 @@ function DetailRow({ icon: Icon, label, value, href }) {
 
 export default function DoctorDetails({ doctor }) {
   return (
-    <section id="details" className="py-16 sm:py-24 bg-white">
+    <section id="about" className="py-16 sm:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-8">
         {/* Section header */}
         <motion.div

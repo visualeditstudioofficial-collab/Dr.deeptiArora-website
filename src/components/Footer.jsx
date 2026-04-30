@@ -18,7 +18,7 @@ export default function Footer({ footer, doctor }) {
               />
             </div>
             <p className="text-slate-400 text-sm leading-relaxed mb-5">{footer.tagline}</p>
-            <p className="text-xs font-mono text-slate-500 bg-slate-800 px-3 py-2 rounded-lg inline-block">
+            <p className="text-xs font-mono bg-slate-800 px-3 py-2 rounded-lg inline-block" style={{ color: '#115c57' }}>
               Reg No: {doctor.regNo}
             </p>
           </div>

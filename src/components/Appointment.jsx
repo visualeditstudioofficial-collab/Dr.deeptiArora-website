@@ -47,11 +47,6 @@ export default function Appointment({ appointment, doctor }) {
     : null
 
   const infoItems = [
-    { icon: '👩‍⚕️', label: 'Doctor', value: `${doctor?.prefix || 'Dr.'} ${doctor?.name || ''}`.trim() },
-    { icon: '🎓', label: 'Qualification', value: doctor?.degree },
-    { icon: '🩺', label: 'Specialization', value: doctor?.specialization },
-    { icon: '🪪', label: 'Registration No', value: doctor?.regNo },
-    { icon: '🏆', label: 'Experience', value: doctor ? `${doctor.experience}+ ${doctor.experienceLabel}` : null },
     { icon: '📞', label: 'Phone', value: doctor?.phone },
     { icon: '✉️', label: 'Email', value: doctor?.email },
     { icon: '🏥', label: 'Clinic', value: doctor?.clinicName || appointment?.clinicName },

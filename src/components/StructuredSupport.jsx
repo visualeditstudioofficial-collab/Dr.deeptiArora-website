@@ -17,7 +17,7 @@ const differentiators = [
 
 export default function StructuredSupport() {
   return (
-    <section className="py-16 sm:py-24 bg-white">
+    <section id="program" className="py-16 sm:py-24 bg-white">
       <div className="max-w-5xl mx-auto px-4 sm:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

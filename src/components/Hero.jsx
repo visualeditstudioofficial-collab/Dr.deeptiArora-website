@@ -73,7 +73,7 @@ export default function Hero({ doctor }) {
               animate="visible"
               className="max-w-xl mx-auto lg:mx-0"
             >
-              <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight">
+              <h1 className="font-display text-2xl sm:text-3xl lg:text-4xl font-extrabold leading-tight">
                 <span className="text-black">Struggling</span>{' '}
                 <span className="text-[#115e59]">with Diabetes or Weight Despite Trying Everything?</span>
               </h1>
@@ -126,7 +126,7 @@ export default function Hero({ doctor }) {
                 📅 Book Consultation
               </button>
               <button
-                onClick={() => scrollTo('services')}
+                onClick={() => scrollTo('approach')}
                 className="btn-secondary w-full sm:w-auto text-center text-base px-8 py-4"
               >
                 Our Services →
@@ -138,7 +138,7 @@ export default function Hero({ doctor }) {
 
       {/* Scroll indicator */}
       <motion.button
-        onClick={() => scrollTo('details')}
+        onClick={() => scrollTo('about')}
         animate={{ y: [0, 6, 0] }}
         transition={{ duration: 2, repeat: Infinity }}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 text-slate-400 hover:text-teal-600 transition-colors"
