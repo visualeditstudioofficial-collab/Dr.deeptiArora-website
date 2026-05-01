@@ -16,14 +16,32 @@
     "tagline": "Healing Hearts, Transforming Lives",
     "subtitle": "Board-certified Interventional Cardiologist with 18+ years dedicated to advanced cardiac care, preventive cardiology, and life-saving interventional procedures.",
     "workingHours": [
-      { "day": "Monday - Friday", "time": "10:00 AM to 7:00 PM" },
-      { "day": "Saturday", "time": "10:00 AM to 6:00 PM" },
-      { "day": "Sunday", "time": "Closed" }
+      {
+        "day": "Monday - Friday",
+        "time": "10:00 AM to 7:00 PM"
+      },
+      {
+        "day": "Saturday",
+        "time": "10:00 AM to 6:00 PM"
+      },
+      {
+        "day": "Sunday",
+        "time": "Closed"
+      }
     ],
     "badges": [
-      { "value": "4000+", "label": "Patients Treated" },
-      { "value": "8+", "label": "Years Experience" },
-      { "value": null, "label": "Evidence-based Approach" }
+      {
+        "value": "4000+",
+        "label": "Patients Treated"
+      },
+      {
+        "value": "8+",
+        "label": "Years Experience"
+      },
+      {
+        "value": null,
+        "label": "Evidence-based Approach"
+      }
     ]
   },
   "about": {
@@ -37,22 +55,38 @@
       {
         "icon": "🎓",
         "title": "Education",
-        "items": ["MBBS – AIIMS, New Delhi", "MD Cardiology – PGIMER Chandigarh", "DM Interventional – Cleveland Clinic, USA"]
+        "items": [
+          "MBBS – AIIMS, New Delhi",
+          "MD Cardiology – PGIMER Chandigarh",
+          "DM Interventional – Cleveland Clinic, USA"
+        ]
       },
       {
         "icon": "🏆",
         "title": "Recognition",
-        "items": ["Top 10 Cardiologist – India 2023", "Best Interventional Cardiologist – Mumbai 2022", "Excellence in Cardiac Care Award 2021"]
+        "items": [
+          "Top 10 Cardiologist – India 2023",
+          "Best Interventional Cardiologist – Mumbai 2022",
+          "Excellence in Cardiac Care Award 2021"
+        ]
       },
       {
         "icon": "🤝",
         "title": "Memberships",
-        "items": ["Cardiological Society of India", "American College of Cardiology", "European Society of Cardiology"]
+        "items": [
+          "Cardiological Society of India",
+          "American College of Cardiology",
+          "European Society of Cardiology"
+        ]
       },
       {
         "icon": "🔬",
         "title": "Research",
-        "items": ["25+ Published Papers", "Principal Investigator – 3 Clinical Trials", "Keynote Speaker – 40+ Conferences"]
+        "items": [
+          "25+ Published Papers",
+          "Principal Investigator – 3 Clinical Trials",
+          "Keynote Speaker – 40+ Conferences"
+        ]
       }
     ]
   },
@@ -174,25 +208,25 @@
     "items": [
       {
         "title": "Metabolic Health Insights",
-        "description": "Understanding the core principles of metabolic health and how it affects your daily life.",
+        "description": "Weight loss is not just about \"willpower\".\nHere let's explore the \"hidden drivers\" of weight gain that have nothing to do with discipline.",
         "thumbnail": "https://img.youtube.com/vi/dByaJNfbL7s/hqdefault.jpg",
         "videoUrl": "https://www.youtube.com/embed/dByaJNfbL7s",
         "duration": "0:58",
         "category": "Education",
-        "views": "1.5K"
+        "views": "5.5K"
       },
       {
         "title": "Healthy Lifestyle Tips",
-        "description": "Practical tips for maintaining a healthy lifestyle and managing diabetes effectively.",
+        "description": "The Truth About GLP-1 Injections Let's understand how GLP1 mimic natural hormones to improve insulin response and satiety",
         "thumbnail": "https://img.youtube.com/vi/IZI5H1dZ5f0/hqdefault.jpg",
         "videoUrl": "https://www.youtube.com/embed/IZI5H1dZ5f0",
         "duration": "0:55",
-        "category": "Lifestyle",
+        "category": "Education",
         "views": "2.2K"
       },
       {
         "title": "Weight Management Guide",
-        "description": "Simple and effective strategies for sustainable weight loss and better health.",
+        "description": "Prediabetes Diet Plan Stop Diabetes Before It Starts!  Small diet changes today can stop diabetes tomorrow!",
         "thumbnail": "https://img.youtube.com/vi/gBjwsh_Gd64/hqdefault.jpg",
         "videoUrl": "https://www.youtube.com/embed/gBjwsh_Gd64",
         "duration": "0:50",
@@ -212,10 +246,22 @@
   "footer": {
     "tagline": "Dedicated to helping people improve sugar control, lose weight, and take charge of their health with clarity and confidence.",
     "quickLinks": [
-      { "label": "About", "href": "#about" },
-      { "label": "Services", "href": "#services" },
-      { "label": "Testimonials", "href": "#testimonials" },
-      { "label": "Book Appointment", "href": "#appointment" }
+      {
+        "label": "About",
+        "href": "#about"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Testimonials",
+        "href": "#testimonials"
+      },
+      {
+        "label": "Book Appointment",
+        "href": "#appointment"
+      }
     ],
     "emergencyNumber": "+91 9115669900",
     "copyright": "© 2025 Healthwise Clinic. All rights reserved. Dr. Deepti Arora, MBBS."
