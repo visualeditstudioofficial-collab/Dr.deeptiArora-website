@@ -170,34 +170,34 @@
   },
   "videoSection": {
     "heading": "Patient Education Videos",
-    "subtitle": "Learn about heart health from Dr. Arora",
+    "subtitle": "Learn about metabolic health. Watch Shorts from Dr. Arora",
     "items": [
       {
-        "title": "Deepti Ma'am Reel 6",
-        "description": "Dr. Deepti Arora shares insights on cardiac care and patient wellness.",
-        "thumbnail": "https://res.cloudinary.com/dqxrvtyii/image/upload/v1773835957/deepti_maam_reel_6_mwrzo9.jpg",
-        "videoUrl": "https://res.cloudinary.com/dqxrvtyii/video/upload/v1773832969/Deepti_ma_am_reel_6_mpdfe6.mp4",
-        "duration": "0:45",
+        "title": "Metabolic Health Insights",
+        "description": "Understanding the core principles of metabolic health and how it affects your daily life.",
+        "thumbnail": "https://img.youtube.com/vi/dByaJNfbL7s/hqdefault.jpg",
+        "videoUrl": "https://www.youtube.com/embed/dByaJNfbL7s",
+        "duration": "0:58",
         "category": "Education",
-        "views": "1.2K"
+        "views": "1.5K"
       },
       {
-        "title": "Deepti Ma'am Reel 5",
-        "description": "Expert advice on maintaining a healthy heart and lifestyle tips.",
-        "thumbnail": "https://res.cloudinary.com/dqxrvtyii/image/upload/v1773835950/deepti_maam_reel_5_gdigam.jpg",
-        "videoUrl": "https://res.cloudinary.com/dqxrvtyii/video/upload/v1773832655/Deepti_ma_am_reel_5_1_romv3b.mp4",
-        "duration": "0:52",
+        "title": "Healthy Lifestyle Tips",
+        "description": "Practical tips for maintaining a healthy lifestyle and managing diabetes effectively.",
+        "thumbnail": "https://img.youtube.com/vi/IZI5H1dZ5f0/hqdefault.jpg",
+        "videoUrl": "https://www.youtube.com/embed/IZI5H1dZ5f0",
+        "duration": "0:55",
         "category": "Lifestyle",
-        "views": "2.8K"
+        "views": "2.2K"
       },
       {
-        "title": "Deepti Ma'am Reel 2",
-        "description": "Understanding cardiac procedures and treatment options explained simply.",
-        "thumbnail": "https://res.cloudinary.com/dqxrvtyii/image/upload/v1773835942/deepti_maam_reel_2_oq2sdy.jpg",
-        "videoUrl": "https://res.cloudinary.com/dqxrvtyii/video/upload/v1773832734/Deepti_maam_reel_2_1_honqdh.mp4",
-        "duration": "0:38",
-        "category": "Procedure",
-        "views": "3.5K"
+        "title": "Weight Management Guide",
+        "description": "Simple and effective strategies for sustainable weight loss and better health.",
+        "thumbnail": "https://img.youtube.com/vi/gBjwsh_Gd64/hqdefault.jpg",
+        "videoUrl": "https://www.youtube.com/embed/gBjwsh_Gd64",
+        "duration": "0:50",
+        "category": "Lifestyle",
+        "views": "1.8K"
       }
     ]
   },

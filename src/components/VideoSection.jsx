@@ -26,7 +26,7 @@ function VideoCard({ item, index }) {
       className="card overflow-hidden w-56 sm:w-64"
     >
       {/* Video / Thumbnail */}
-      <div className="relative w-full" style={{ paddingBottom: '150%' }}>
+      <div className="relative w-full" style={{ paddingBottom: '177.78%' }}>
         {!playing ? (
           <>
             <img
@@ -50,14 +50,24 @@ function VideoCard({ item, index }) {
             </div>
           </>
         ) : (
-          <video
-            ref={videoRef}
-            src={item.videoUrl}
-            controls
-            autoPlay
-            className="absolute inset-0 w-full h-full object-cover bg-black rounded-t-2xl"
-            preload="metadata"
-          />
+          item.videoUrl.includes('youtube.com') || item.videoUrl.includes('youtu.be') ? (
+            <iframe
+              src={`${item.videoUrl}${item.videoUrl.includes('?') ? '&' : '?'}autoplay=1`}
+              className="absolute inset-0 w-full h-full bg-black rounded-t-2xl"
+              allow="autoplay; encrypted-media"
+              allowFullScreen
+              title={item.title}
+            ></iframe>
+          ) : (
+            <video
+              ref={videoRef}
+              src={item.videoUrl}
+              controls
+              autoPlay
+              className="absolute inset-0 w-full h-full object-cover bg-black rounded-t-2xl"
+              preload="metadata"
+            />
+          )
         )}
       </div>
 
